@@ -188,6 +188,7 @@ def main(steps: list[type[ParamBaseStep]] | None = None) -> None:
         colorize=args.colorize,
         log_level=args.log_level,
     )
+    print("Testing 12345")
     if args.dry_run:
         debug(bsag.config)
         sys.exit(0)
